@@ -1,0 +1,61 @@
+:root{
+    font-family: "Josefin Sans", "Sans-serif";
+}
+body{
+    margin: 0;
+    background-image: url("media/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#header{
+    margin:auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 0px 10%;
+    align-items: center;
+    height: 200px;
+    border-radius: 20px;
+    background-color: transparent;
+    justify-content:center;
+    box-shadow: 0px 0px 20px 0px;
+}
+input{
+    border-radius: 500px;
+    padding: 5px;
+    padding-left: 10px;
+}
+button{
+    padding: 5px;
+    border-radius: 500px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: skyblue;
+}
+#weather-page{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    height: 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 0px 0px;
+}
+#condition-img{
+    margin: 0px;
+    width: 100px;
+    height: auto;
+}
+@media screen and (max-width:540px) {
+    #weather-page{
+        width: 90%;
+    }
+}
